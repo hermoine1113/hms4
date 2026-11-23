@@ -11,3 +11,6 @@ COPY target/*.war /usr/local/tomcat/webapps/ROOT.war
 # Start Tomcat
 
 CMD ["catalina.sh", "run"]
+
+#FROM redis:latest
+#CMD[" redis:server "]
